@@ -1,0 +1,20 @@
+{
+  "name": "ali-jamali-brainflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a7jamali/ali-jamali-brainflix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a7jamali/ali-jamali-brainflix/issues"
+  },
+  "homepage": "https://github.com/a7jamali/ali-jamali-brainflix#readme"
+}
