@@ -3,7 +3,7 @@ import React from "react";
 export default function ComponentOne() {
     return (
 
-        <h1>Hello World</h1>
+        <h1 className="cnTest">Hello World</h1>
 
     )
 }
