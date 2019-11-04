@@ -3,7 +3,7 @@ import React from "react";
 
 
 export default function PlayNext(props) {
-	const videoImage =
+	const suggestions =
 		props.data.PlayNext &&
 		props.data.PlayNext.map(function(video, index) {
 			return (
@@ -23,7 +23,7 @@ export default function PlayNext(props) {
 	return (
 		<div className="playnext__box">
 			<h4 className="playnext__heading">Next Video</h4>
-			{videoImage}
+			{suggestions}
 		</div>
 	);
 }

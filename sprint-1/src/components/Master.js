@@ -6,7 +6,7 @@ import Description from "./Body/DescriptionBox";
 
 
 
-export default function mainContent(props) {
+export default function masterFunction(props) {
 	return (
 		<div>
 			<div className="body">

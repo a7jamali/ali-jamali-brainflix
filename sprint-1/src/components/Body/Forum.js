@@ -4,8 +4,7 @@ import Avatar from "../../assets/Photos/Mohan-muruge.jpg";
 
 
 export default function Comments(props) {
-	const newComments =
-//props.data.comments &&
+	const genComm =
 		props.data.comments.map(function(comment, index) {
 			return (
 				<div className="forum__cell" key={index}>
@@ -29,7 +28,7 @@ export default function Comments(props) {
 					<button className="comment__button" type="button">Comment</button>
 				</div>
 			</form>
-			{newComments}
+			{genComm}
 		</div>
 	);
 }
