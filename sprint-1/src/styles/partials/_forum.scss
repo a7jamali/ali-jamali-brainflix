@@ -134,13 +134,17 @@
 @include huge {
     .comment {
         &__text {
-            width: 30vw;
-            height: 75px;
+            width: 25vw;
             border: 2px $silver solid;
+            font-size: 0.75rem;
+        }
+
+        &__box {
+            display: flex;
+            align-items: flex-start;
         }
 
         &__button {
-            height: 75px;
             width: 10vw;
             font-size: 0.01rem;
         }
@@ -148,7 +152,7 @@
 
     .forum {
         &__motto {
-            margin-left: 1.5vw;
+            margin-left: 5vw;
         }
     }
 }

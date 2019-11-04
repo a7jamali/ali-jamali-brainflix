@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./styles/main.css"
 import Header from "./components/Header";
-import MainContent from "./components/Master";
+import Master from "./components/Master";
 import VideoList1 from "./assets/Photos/video-list-1.jpg";
 import VideoList2 from "./assets/Photos/video-list-2.jpg";
 import VideoList3 from "./assets/Photos/video-list-3.jpg";
@@ -108,7 +108,7 @@ class App extends Component {
 		return (
 			<div className="App">
 				<Header />
-				<MainContent data={this.state.mainVideo} />
+				<Master data={this.state.mainVideo} />
 			</div>
 		);
 	}

@@ -144,7 +144,7 @@
     border: 2px #afafaf solid;
   }
   .header__button {
-    width: 5vw;
+    width: 7vw;
   }
   .header__nav {
     margin-right: 12.5vw;
@@ -398,17 +398,24 @@
 
 @media only screen and (min-width: 1440px) {
   .comment__text {
-    width: 30vw;
-    height: 75px;
+    width: 25vw;
     border: 2px #afafaf solid;
+    font-size: 0.75rem;
+  }
+  .comment__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .comment__button {
-    height: 75px;
     width: 10vw;
     font-size: 0.01rem;
   }
   .forum__motto {
-    margin-left: 1.5vw;
+    margin-left: 5vw;
   }
 }
 
@@ -470,9 +477,9 @@
   }
   .playnext__box {
     float: right;
-    width: 16.5vw;
+    width: 22vw;
     margin: 0;
-    margin-right: 18vw;
+    margin-right: 12vw;
     margin-top: 48px;
     border-left: 1px #afafaf solid;
     padding-left: 2vw;
