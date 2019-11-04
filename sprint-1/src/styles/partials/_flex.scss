@@ -1,0 +1,27 @@
+@include huge {
+
+
+
+    .playnow {
+        &__data {
+            float: left;
+            width: 52vw;
+            margin: 0;
+            margin-left: 12.5vw;
+        }
+    }
+
+    .playnext {
+        &__box{
+            float: right;
+            width: 16.5vw;
+            margin: 0;
+            margin-right: 18vw;
+            margin-top: 48px;
+            border-left: 1px $silver solid;
+            padding-left: 2vw;
+            
+
+        }
+    }
+}

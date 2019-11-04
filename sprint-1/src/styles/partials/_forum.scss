@@ -1,0 +1,154 @@
+.forum {
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    margin-bottom: 40px;
+
+    &__heading {
+        font-family: AvenirDemi;
+    }
+
+    &__motto {
+        color: $silver;
+        font-family: AvenirDemi;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        width: 70vw;
+        margin-top: 32px;
+        margin-left: 10vw;
+
+    }
+
+    &__avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        margin-right: 10px;
+    }
+
+    &__cell {
+        display: flex;
+        flex-flow: row;
+        border-bottom: 1px $silver solid;
+        margin-bottom: 24px;
+        
+    }
+
+    &__info {
+        display: flex;
+        flex-flow: row wrap;
+        margin-right: 5vw;
+    }
+
+    &__date {
+        margin-left: auto;
+        color: $silver;
+        margin-bottom: 10px;
+    }
+
+    &__body {
+        margin-bottom: 24px;
+    }
+
+}
+
+.comment {
+    &__avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    &__text {
+        width: 70vw;
+        height: 48px;
+        border-radius: 5px;
+        border: 1px $silver solid;
+        margin-left: auto;
+        margin-top: 16px;
+        color: $black;
+        font-size: 0.55rem;
+        padding-left: 5px;
+        padding-top: 10px;
+
+        &:focus {
+            border: 2px $bfblue solid;
+            outline: none;
+        }
+    }
+
+    &__button {
+        background: $bfblue;
+        color: $white;
+        text-transform: uppercase;
+        width: 70vw;
+        height: 48px;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-top: 16px;
+        margin-bottom: 24px;
+
+
+    }
+
+    &__box {
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
+
+@include medium {
+    .comment {
+        
+        flex-direction: row;
+        align-items: center;
+        border-bottom: 1px $silver solid;
+
+
+
+        &__text {
+            width: 440px;
+            color: $black;
+            font-size: 1rem;
+            padding-left: 5px;
+            padding-top: 10px;
+        }
+
+        &__button {
+            width: 160px;
+        }
+    }
+}
+
+.forum {
+
+    &__cell {
+    margin-top: 24px;
+    }
+
+    &__motto {
+        padding-left: auto;
+    }
+}
+
+@include huge {
+    .comment {
+        &__text {
+            width: 30vw;
+            height: 75px;
+            border: 2px $silver solid;
+        }
+
+        &__button {
+            height: 75px;
+            width: 10vw;
+            font-size: 0.01rem;
+        }
+    }
+
+    .forum {
+        &__motto {
+            margin-left: 1.5vw;
+        }
+    }
+}
