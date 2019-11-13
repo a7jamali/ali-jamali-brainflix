@@ -21,7 +21,7 @@ export default function Comments(props) {
 		<div className="forum">
 			<h2 className="forum__heading">3 Comments</h2>
 			<form action="" className="comment">
-			<h4 className="forum__motto">Join the Conversation</h4>
+			<h4 className="forum__motto">Join the Conversation</h4>
 				<div className="comment__box">
 					<img src={Avatar} alt="avatar" className="comment__avatar"/>
 					<textarea  className="comment__text" name="comment" placeholder="That was easily the most spectacular BMX moment ever."></textarea>

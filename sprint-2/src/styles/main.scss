@@ -1,0 +1,17 @@
+@import "./partials/breakpoints";
+@import "./partials/colors";
+@import "./partials/fonts";
+@import "./partials/header";
+@import "./partials/playnow";
+@import "./partials/forum";
+@import "./partials/playnext";
+@import "./partials/flex";
+@import "./partials/uploader";
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: AvenirRegular;
+}

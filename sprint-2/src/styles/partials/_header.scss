@@ -1,0 +1,132 @@
+.header {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 100vw;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__logo{
+        margin: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        &-image {
+        height: 48px;
+        }
+    }
+
+    &__avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+       margin-bottom: -16px;
+    }
+
+    &__bar {
+        margin-top: 15px;
+        width: 90vw;
+        height: 40px;
+        border-radius: 5px;
+        margin-left: 5vw;
+        padding-left: 5vw;
+        border: 1px $silver solid;
+
+        &:focus {
+            border: 2px $bfblue solid;
+            outline: none;
+        }
+
+    }
+
+    &__button {
+        margin-left: 5vw;
+        height: 48px;
+        width: 70vw;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-family: AvenirDemi;
+        color: $white;
+        background: $bfblue;
+        font-size: 1rem;
+        margin-right: 5vw;
+        margin-top: 8px;
+
+
+        &-icon {
+            margin-right: 10px
+        }
+    }
+
+}
+
+@include medium {
+    .header {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+
+        &__logo {
+            margin: 0;
+            padding: 0;
+            width: 20vw;
+            margin-right: 22vw;
+        }
+
+        &__nav {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+        
+        }
+
+        &__bar {
+            margin: 0;
+            padding-left: 2vw;
+            width: 20vw;
+            height: 50px;
+            margin-right: 3.125vw
+
+        }
+
+        &__button {
+            margin: 0;
+            padding: 0;
+            width: 20vw;
+            height: 50px;
+            margin-right: 3.125vw
+
+
+        }
+
+    }
+
+}
+
+@include huge {
+
+    .header {
+
+    
+        &__logo {
+            margin-left: 10vw;
+            margin-right: 24vw;
+        }
+
+        &__bar {
+            border: 2px $silver solid;
+
+        }
+
+        &__button {
+            width: 7vw;
+        }
+
+        &__nav {
+            margin-right: 12.5vw;
+        }
+    }
+
+}

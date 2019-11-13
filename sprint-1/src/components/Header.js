@@ -2,6 +2,9 @@ import React from "react";
 import Logo from "../assets/Logo/Logo-brainflix.svg";
 import Avatar from "../assets/Photos/Mohan-muruge.jpg";
 import Upload from "../assets/Icons/SVG/Icon-upload.svg";
+
+
+
 export default function Header() {
 	return (
 		<header className="header">
