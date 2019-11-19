@@ -1,0 +1,53 @@
+a {
+    text-decoration: none;
+}
+
+.playnext {
+
+    &__heading {
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        font-family: AvenirDemi;
+        color: $silver;
+    }
+
+    &__box {
+        margin-left: 5vw;
+        margin-right: 5vw;
+
+    }
+
+    &__thumbnail {
+        width: 120px;
+        height: 70px;
+        margin-right: 16px;
+    }
+
+    &__cell {
+        display: flex;
+        flex-flow: row;
+        margin-bottom: 24px;
+    }
+
+    &__title {
+        font-family: AvenirDemi;
+        color: $black;
+        text-emphasis: none;
+    }
+
+    &__channel {
+        color: $silver;
+    }
+
+    &__info {
+        display: flex;
+        flex-flow: column;  
+    }
+
+}
+
+@include huge {
+    .playnext {
+        padding-right: 12.5vw;
+    }
+}

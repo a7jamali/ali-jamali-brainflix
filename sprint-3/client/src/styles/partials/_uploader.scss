@@ -1,0 +1,204 @@
+.uploader {
+
+    margin-left: 5vw;
+
+    &__picpic {
+        width: 90vw;
+        border-radius: 5px;
+    }
+
+    &__heading {
+        border-top: 1px $mercury solid;
+        padding-top: 24px;
+        font-family: AvenirBold;
+    }
+
+    &__picsec {
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+
+    &__instruction {
+        color: $silver;
+        font-family: AvenirDemi;
+        font-size: 1rem;
+        text-transform: uppercase;
+        margin-top: 8px;
+        margin-bottom: 5px;
+
+    }
+
+    &__textbox {
+            width: 90vw;
+            height: 48px;
+            border-radius: 5px;
+            border: 1px $silver solid;
+            margin-left: auto;
+            color: $black;
+            font-size: 0.75rem;
+            padding-left: 5px;
+            padding-top: auto;
+    
+            &:focus {
+                border: 2px $bfblue solid;
+                outline: none;
+            }
+    }
+
+    &__textboxbig {
+        width: 90vw;
+        height: 143px;
+        border-radius: 5px;
+        border: 1px $silver solid;
+        margin-left: auto;
+        color: $black;
+        font-size: 0.75rem;
+        padding-left: 5px;
+        padding-bottom: 95px;
+
+
+        &:focus {
+            border: 2px $bfblue solid;
+            outline: none;
+        }
+}
+
+    &__buttons {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    &__publish {
+        background: $bfblue;
+        color: $white;
+        font-family: AvenirDemi;
+        font-size: 1rem;
+        width: 90vw;
+        margin: 32px 0;
+        border-radius: 5px;
+        height: 50px
+    }
+
+    &__cancel {
+        align-self: center;
+        margin-left: -5vw;
+        margin-bottom: 40px;
+        font-family: AvenirDemi;
+        color: $bfblue;
+    }
+
+}
+
+@include medium {
+    .uploader {
+
+        &__picpic {
+            width: 44.8vw;
+        }
+
+        &__heading {
+            border-bottom: 1px $mercury solid;
+            padding-bottom: 32px;
+        }
+
+        &__picsec {
+            margin-top: 40px;
+        }
+
+        &__inputs {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        &__textsec {
+            border-bottom: 1px $mercury solid;
+            padding-bottom: 32px;
+        }
+
+        &__publish {
+            width: 21vw;
+            margin-right: 5vw;
+            margin-left: 48px;
+        }
+
+        &__buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        &__cancel {
+            margin-top: 35px;
+        }
+    }
+}
+
+@include huge {
+    .uploader {
+
+        margin: auto 12.5vw;
+
+        &__picpic {
+            width: 24vw;
+            
+        }
+
+        &__heading {
+            border-bottom: 1px $mercury solid;
+            padding-bottom: 32px;
+        }
+
+        &__picsec {
+            margin-top: 40px;
+        }
+
+        &__inputs {
+            border-bottom: 1px $mercury solid;
+            padding-bottom: 32px;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        &__textsec {
+            margin-top: 40px;
+            margin-left: 2vw;
+            border-bottom: none;
+            padding-bottom: 40px;
+        }
+
+        &__publish {
+            width: 160px;
+            margin-right: 0;
+            margin-left: 48px;
+        }
+
+        &__buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        &__cancel {
+            margin-top: 35px;
+        }
+
+        &__textbox {
+            width: 48vw;
+            border: 2px $silver solid;
+
+        }
+
+        &__textboxbig {
+            width: 48vw;
+            border: 2px $silver solid;
+            height: 230px;
+
+        }
+
+        &__instruction {
+            margin-top: 24px;
+        }
+        
+
+    }
+}

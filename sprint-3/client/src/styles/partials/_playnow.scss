@@ -1,0 +1,99 @@
+.playnow {
+
+    &__video {
+        width: 100vw;
+        height: 200px;
+    }
+
+    &__description {
+        margin: 0 5vw;
+    }
+
+    &__title {
+        margin-top: 32px;
+        font-family: AvenirBold;
+    }
+
+    &__channel {
+        margin-top: 16px;
+    }
+
+    &__ct {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 32px;
+    }
+
+    &__channel {
+        margin-right: 8px;
+    }
+
+    &__time {
+        color: $silver;
+    }
+
+    &__icons {
+        margin-right: 8px;
+    }
+
+    &__iv {
+        display: flex;
+        align-items: baseline;
+        margin-right: 50px;
+    }
+
+    &__il {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 24px;
+
+    }
+
+    &__vl {
+        display: flex;
+        align-items: baseline;
+        border-bottom: 1px $silver solid;
+    }
+
+    &__paragraph {
+        margin-top: 24px;
+        margin-bottom: 40px;
+    }
+
+}
+
+@include medium {
+    .playnow {
+        &__infobar {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            border-bottom: 1px $silver solid;
+        }
+
+        &__video {
+            height: 400px;
+        }
+
+        &__vl {
+            border-bottom: none;
+        }
+    }
+}
+
+@include huge {
+    .playnow {
+        &__box {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            background: black;
+
+        }
+
+        &__video {
+            width: 65vw;
+            height: 600px;
+        }
+    }
+}
