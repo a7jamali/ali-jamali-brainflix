@@ -246,6 +246,7 @@
     border-bottom: 1px #afafaf solid;
   }
   .playnow__video {
+    width: 100vw;
     height: 400px;
   }
   .playnow__vl {

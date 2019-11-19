@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import Views from "../../assets/Icons/SVG/Icon-views.svg";
 import Likes from "../../assets/Icons/SVG/Icon-likes.svg";
 
-//let Epoch = props.DescBox.timestamp;
-//let USDate = new Date(Epoch).toLocaleDateString("en-US")
 
 export default class DescriptionBox extends Component {
 	render() {
+		let Epoch = this.props.DescBox.timestamp;
+		let USDate = new Date(Epoch).toLocaleDateString("en-US")
 		return (
 			<div className="playnow__description">
 				<h1 className="playnow__title">
@@ -18,9 +18,9 @@ export default class DescriptionBox extends Component {
 					By{" "}
 					{this.props.DescBox && this.props.DescBox.channel}
 				</h2>
-				{/*<h3 className="playnow__time">
+				<h3 className="playnow__time">
 				{USDate}
-		</h3>*/}
+		</h3>
 			
 				</div>
 				<div className="playnow__vl">

@@ -9,7 +9,7 @@ function writeJSONFile(filename, content) {
       console.log(err);
     }
   });
-  console.log(`changes saved to file ${filename}....`);
+  console.log(`changes saved to file ${filename}.`);
 }
 
 const getNewId = () => {

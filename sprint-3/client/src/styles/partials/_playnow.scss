@@ -1,5 +1,8 @@
 .playnow {
 
+
+    //the video player is the same size for all videos. the thumbnail images inside the player may have different dimensions.
+    
     &__video {
         width: 100vw;
         height: 200px;
@@ -72,6 +75,7 @@
         }
 
         &__video {
+            width: 100vw;
             height: 400px;
         }
 
