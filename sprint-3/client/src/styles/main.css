@@ -59,6 +59,11 @@
 }
 
 .header__bar {
+  background-image: url("../assets/Icons/PNG/Icon-search.png");
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 5px;
   margin-top: 15px;
   width: 90vw;
   height: 40px;
@@ -142,6 +147,7 @@
   }
   .header__bar {
     border: 2px #afafaf solid;
+    background-position-x: 25px;
   }
   .header__button {
     width: 7vw;
